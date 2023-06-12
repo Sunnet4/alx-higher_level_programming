@@ -1,4 +1,4 @@
-include "lists.h"
+#include "lists.h"
 
 /**
  * reverse_listint - reverses a linked list
@@ -68,3 +68,4 @@ int is_palindrome(listint_t **head)
 		return (1);
 
 	return (0);
+}
