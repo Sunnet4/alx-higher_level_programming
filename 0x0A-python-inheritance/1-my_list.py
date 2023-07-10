@@ -1,9 +1,11 @@
 #!/usr/bin/python3
-"""This module inherits from the list class"""
+"""1-my_list module"""
 
 
 class MyList(list):
-    """A class that inherits from list"""
+    """MyList class"""
     def print_sorted(self):
-        """prints a sorted list"""
+        """sorts a list of integers in ascending order"""
+        if not all(isinstance(i, int) for i in self):
+            raise TypeError("must be a list of integers")
         print(sorted(self))
