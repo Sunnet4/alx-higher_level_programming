@@ -1,4 +1,3 @@
-
 #!/usr/bin/node
 /**
  * Check the parameters provided
